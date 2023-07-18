@@ -225,3 +225,36 @@ nav{
     width: 280px;
 
 }
+/*icon container starts*/
+.icon-container{
+    width: 1200px;
+    min-height: 150px;
+    margin: 30px auto;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon-content{
+    border: 2px solid red;
+    flex-basis: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px; 
+    
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.icon-content p{
+    font-size: 15px;
+    color: #0B0223;
+    font-weight: 600;
+}
