@@ -185,3 +185,43 @@ nav{
     font-weight: 500;
     text-align: left;
 }
+/*play instantly section starts here*/
+.play-instant-container{
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    background: #FFF;
+}
+.play-instant-content{
+    width: 50%;
+    text-align: right;
+    
+}
+.play-instant-img-container{
+    width: 50%;
+    
+}
+.play-instant-img-container img{
+    width: 100%;
+    height: auto;
+}
+.play-instant-part{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.talking-angela-container{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    margin-top: -270px;
+    margin-left: 590px;
+}
+.talking-angela-container img{
+    width: 280px;
+
+}
