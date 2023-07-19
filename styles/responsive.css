@@ -1,193 +1,178 @@
 @media screen and (max-width: 576px) {
-    /* nav{
-        width: 100%;
-    } */
     .nav-container{
+        width: auto;
         flex-direction: column;
-        gap: 30px;
-        width: 1200px;
-        
-
+        margin: auto
+   
     }
     .nav-menu{
-        flex-direction: column;   
+      flex-direction: column;  
     }
-    .nav-menu li{
-        font-size: 70px;  
-    }
-    .nav-menu a{
-        gap: 20px;
-    }
-    .btn{
-        font-size: 40px;
-       
-    }
-    .nav-img-container{
-        width: 100%;
-        border: 2px solid red;
-        margin: 0 auto;
-        padding-left: 210px;
-    }
-    .menu-container{
-        width: 100%;
-        border: 2px solid red;
-        
-    }
-    .nav-img-container img{
-        width: 220px;
-    }
-    .nav-title{
-        font-size: 150px;
-        
-    }
-    /*banner section*/
+    /*banner*/
     .banner-container{
-        width: 1200px;
         flex-direction: column-reverse;
-        margin-top: 20px;
-
+        width: auto;
+        
     }
     .banner-img-container{
-        width: 100%;
-        border: 2px solid red;
+        width: auto;
     }
-    
     .banner-content{
-        width: 100%;
-        margin-top: 30px;
-        
-    }
-    .banner-content div{
-        width: 100%;
-        text-align: center;
-        
-    }
-    .banner-description{
-        text-align: start;
-        font-size: 30px;
-        padding: 20px 0px;
-    }
-    .pink-button{
-        font-size: 30px;
-    }
-    .sky-button{
-        font-size: 30px;
+        width: auto;
     }
     /*online section*/
     .online-games-container{
         flex-direction: column;
-        padding: 20px 50px;
+        width: auto;
+        margin: auto;
     }
     .games-box-container{
         grid-template-columns: 1fr;
-    }
-    .online-game-description{
-        font-size: 30px;
+        width: auto;
+        margin: auto;
     }
     .box-img{
-        width: 80%;   
+        width: auto;
+    }
+    .online-game-description{
+        font-size: 14px;
+        
     }
     .games-box-container figcaption{
         
-        font-size: 30px;
+        font-size: 16px;
+       
         text-align: center;
     }
-    /*play instant section*/
+    /*play section*/
     .play-instant-container{
         flex-direction: column;
+        text-align: center;
+        width: auto;
+        margin: auto;
     }
     .play-instant-content{
-        width: 100%;
+        width:auto;
         text-align: center;
         
     }
-    .online-game-description{
-        padding-top: 40px;
+    .play-instant-img-container img{
+        width: auto;
+        height: 300px;
     }
     .talking-angela-container{
-        margin-top: -270px;
-        margin-left: 200px;
+        margin-left:50px;
+       
+    }
+    .talking-angela-container img{
+        height: 200px;
+        margin-top: 50px;
         
+    
     }
     /*icon container starts*/
     .icon-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 50px 30px;
-    }
-    .icon{
-        height: 60px;
-        width: 60px;
-        object-fit: contain;
-    }
-    .icon-content p{
-        font-size: 30px;
-    }
-    /*footer starts here*/
-    /* .footer-container{
-        width: 1200px;
-    } */
-    .footer{
-        width: 1200px;
-        background: #0B0223;
-    }
-    .footer-img-container{
-        margin: 0;
-        gap: 10px;
-        
-        border: 2px solid red;
-        width: 1200px;
-        background: #0B0223;
-       
-    }
-    .footer-img-container img{
-        width: 90px;
-        object-fit: contain;
-    
-    }
-    .footer-title{
-        font-size: 70px;
-        text-align: center;
-    }
-    
-    .footer-menu{
-        display: flex;
-        gap: 30px;
+        gap: 0;
+        width: auto;
         justify-content: center;
         align-items: center;
-        padding: 20px 0;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .fa-brands{
-        color: #FFF;
-        padding-bottom: 20px;
+    } 
+    /*footer*/
+    .footer-container{
+        width: auto;
+        margin: auto;
         
     }
-    .footer-more-menu li{
-       
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     .footer-more-menu{
-        display: flex;
-        justify-content: center;
-        gap:20px;
-        color: rgba(255, 255, 255, 0.60);
-        font-size: 14px;
-        font-weight: 500;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-    .copyright{
-        
-        font-size: 14px;
-        font-weight: 500;
-        padding: 20px;
-    }
-    
-    
-    
 }
 
 
-
 @media screen and (min-width: 576px) and (max-width: 992px){
+    .nav-container{
+        width: auto;
+        flex-direction: column;
+        margin: auto
+   
+    }
+    .nav-menu{
+      flex-direction: column;  
+    }
+    .nav-img-container{
+        width: auto;
+    }
+    /*banner*/
+    .banner-container{
+        flex-direction: column-reverse;
+        width: auto;
+        
+    }
+    .banner-img-container{
+        width: auto;
+    }
+    .banner-content{
+        width: auto;
+    }
+    /*online section*/
+    .online-games-container{
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+    }
+    .games-box-container{
+        grid-template-columns: 1fr;
+        width: auto;
+        margin: auto;
+    }
+    .box-img{
+        width: auto;
+    }
+    .online-game-description{
+        font-size: 14px;
+        
+    }
+    .games-box-container figcaption{
+        
+        font-size: 16px;
+       
+        text-align: center;
+    }
+    /*play section*/
+    .play-instant-container{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        margin: auto;
+    }
+    .play-instant-content{
+        width:auto;
+        text-align: center;
+        
+    }
+    .play-instant-img-container img{
+        width: auto;
+        height: 300px;
+    }
+    .talking-angela-container{
+        margin-left:50px;
+       
+    }
+    .talking-angela-container img{
+        height: 200px;
+        margin-top: 50px;
+        
     
+    }
 }
