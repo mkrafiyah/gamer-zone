@@ -8,17 +8,29 @@
     .nav-menu{
       flex-direction: column;  
     }
+    .nav-img-container img{
+        width: 15%;
+    }
+    .nav-img-container{
+        justify-content: center;
+    }
     /*banner*/
     .banner-container{
         flex-direction: column-reverse;
         width: auto;
+        background-image: none;
         
     }
     .banner-img-container{
         width: auto;
     }
+
     .banner-content{
         width: auto;
+        background-image: url(../images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     /*online section*/
     .online-games-container{
@@ -112,11 +124,16 @@
     }
     .nav-img-container{
         width: auto;
+        justify-content: center;
+    }
+    .nav-img-container img{
+        width: 20%;
     }
     /*banner*/
     .banner-container{
         flex-direction: column-reverse;
         width: auto;
+        background-image: none;
         
     }
     .banner-img-container{
@@ -124,6 +141,11 @@
     }
     .banner-content{
         width: auto;
+        background-image: url(../images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+        
     }
     /*online section*/
     .online-games-container{
